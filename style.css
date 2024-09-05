@@ -22,7 +22,7 @@ header {
     height: 200px;
     display: flex;
     align-items: center;
-    color: #0bbeb5;
+    color: #cb0008;
     font-size: 1.5rem;
     padding: 50px;
 }
@@ -64,11 +64,11 @@ ol{
 
 .nav_lists a{
     text-decoration: none;
-    color: #0bbeb5;
+    color: #cb0008;
 }
 
 h5{
-    color: #0bbeb5;
+    color: #cb0008;
     font-size: 12px;
 }
 
@@ -85,11 +85,11 @@ main{
 hr{
     width: 100px;
     border: none;
-    border-bottom: 1px solid #0bbeb5;
+    border-bottom: 1px solid #cb0008;
 }
 
 .title_color{
-    color: #0bbeb5;
+    color: #cb0008;
 }
 
 .abt_designs{
@@ -110,9 +110,9 @@ hr{
 
 .first_main img{
     border-radius: 40px;
-    -webkit-box-shadow: 40px 40px 45px 0px #0bbeb5;
-    -moz-box-shadow: 40px 40px 45px 0px #0bbeb5;
-    box-shadow: 40px 40px 45px 0px #0bbeb5;
+    -webkit-box-shadow: 40px 40px 45px 0px #cb0008;
+    -moz-box-shadow: 40px 40px 45px 0px #cb0008;
+    box-shadow: 40px 40px 45px 0px #cb0008;
 }
 
 
@@ -134,7 +134,7 @@ hr{
 
 .material-symbols-outlined {
     font-size: 7rem;
-    color: #0bbeb5;
+    color: #cb0008;
 }
 
 .first_cards_section h4,h5,p{
@@ -150,7 +150,7 @@ hr{
     padding-bottom: 20px;
     width: 250px;
     height: 275px;
-    background: linear-gradient(#0c0c0c, #073633);
+    background: linear-gradient(#0c0c0c, #44050577);
     border-radius: 5px;
     text-align: center;
     gap: 1rem;
@@ -170,13 +170,13 @@ hr{
     padding-bottom: 20px;
     width: 250px;
     height: 275px;
-    background: linear-gradient(#0c0c0c, #073633);
+    background: linear-gradient(#0c0c0c, #44050577);
     border-radius: 5px;
     text-align: center;
     gap: 1rem;
-    -webkit-box-shadow: 10px -10px 5px 0px rgba(13,31,31,1);
-    -moz-box-shadow: 10px -10px 5px 0px rgba(13,31,31,1);
-    box-shadow: 10px -10px 5px 0px rgba(13,31,31,1);
+    -webkit-box-shadow: 10px -10px 5px 0px rgba(71, 23, 23, 1);
+    -moz-box-shadow: 10px -10px 5px 0px rgba(71, 23, 23, 1);
+    box-shadow: 10px -10px 5px 0px rgba(71, 23, 23, 1);
 }
 
 .second_card h5{
@@ -185,7 +185,7 @@ hr{
 }
 
 button{
-    background: #0bbeb5;
+    background: #cb0008;
     color: white;
     width: 130px;
     height: 50px;
@@ -198,7 +198,7 @@ button{
 
 button:hover{
     background-color: transparent;
-    border: #0bbeb5 2px solid;
+    border: #cb0008 2px solid;
 }
 
 .second_cards_section{
@@ -218,13 +218,13 @@ button:hover{
     padding-bottom: 20px;
     width: 250px;
     height: 275px;
-    background: linear-gradient(#0c0c0c, #073633);
+    background: linear-gradient(#0c0c0c, #44050577);
     border-radius: 5px;
     text-align: center;
     gap: 1rem;
-    -webkit-box-shadow: -10px 10px 5px 0px rgba(13,31,31,1);
-    -moz-box-shadow: -10px 10px 5px 0px rgba(13,31,31,1);
-    box-shadow: -10px 10px 5px 0px rgba(13,31,31,1);
+    -webkit-box-shadow: -10px 10px 5px 0px rgba(71, 23, 23, 1);
+    -moz-box-shadow: -10px 10px 5px 0px rgba(71, 23, 23, 1);
+    box-shadow: -10px 10px 5px 0px rgba(71, 23, 23, 1);
 }
 
 .third_card h5{
@@ -240,7 +240,7 @@ button:hover{
     padding-bottom: 20px;
     width: 250px;
     height: 275px;
-    background: linear-gradient(#0c0c0c, #073633);
+    background: linear-gradient(#0c0c0c, #44050577);
     border-radius: 5px;
     text-align: center;
     gap: 1rem;
@@ -264,7 +264,7 @@ button:hover{
 }
 
 .cd{
-    color: #0bbeb5;
+    color: #cb0008;
 }
 
 h1{
@@ -325,12 +325,12 @@ footer{
 }
 
 .foot_cards h1{
-    color: #0bbeb5;
+    color: #cb0008;
 }
 
 footer .material-symbols-outlined{
     font-size: 5rem;
-    color: #0bbeb5;
+    color: #cb0008;
 }
 
 footer h2{
