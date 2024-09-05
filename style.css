@@ -1,0 +1,374 @@
+@import url(https://db.onlinewebfonts.com/c/877157025d03c4d7ed11a04f1dfd4472?family=Havelock+Titling+Bold);
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Havelock Titling Bold";
+}
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg, #1d1d1d, #040707);
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    color: #0bbeb5;
+    font-size: 1.5rem;
+    padding: 50px;
+}
+
+nav p{
+    font-size: 12px;
+}
+
+.nav_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2rem;
+}
+ol{
+    list-style-type: none;
+}
+.nav_lists{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search_logo{
+    cursor: pointer;
+}
+
+.sec_nav{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav_lists a{
+    text-decoration: none;
+    color: #0bbeb5;
+}
+
+h5{
+    color: #0bbeb5;
+    font-size: 12px;
+}
+
+
+main{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 11rem;
+    padding: 100px  0px;
+}
+
+hr{
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid #0bbeb5;
+}
+
+.title_color{
+    color: #0bbeb5;
+}
+
+.abt_designs{
+    width: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.first_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 100px;
+}
+
+.first_main img{
+    border-radius: 40px;
+    -webkit-box-shadow: 40px 40px 45px 0px #0bbeb5;
+    -moz-box-shadow: 40px 40px 45px 0px #0bbeb5;
+    box-shadow: 40px 40px 45px 0px #0bbeb5;
+}
+
+
+.first_cards_section{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.second_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+
+.material-symbols-outlined {
+    font-size: 7rem;
+    color: #0bbeb5;
+}
+
+.first_cards_section h4,h5,p{
+    color: white;
+}
+
+.first_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    width: 250px;
+    height: 275px;
+    background: linear-gradient(#0c0c0c, #073633);
+    border-radius: 5px;
+    text-align: center;
+    gap: 1rem;
+
+}
+
+.first_card h5{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.second_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    width: 250px;
+    height: 275px;
+    background: linear-gradient(#0c0c0c, #073633);
+    border-radius: 5px;
+    text-align: center;
+    gap: 1rem;
+    -webkit-box-shadow: 10px -10px 5px 0px rgba(13,31,31,1);
+    -moz-box-shadow: 10px -10px 5px 0px rgba(13,31,31,1);
+    box-shadow: 10px -10px 5px 0px rgba(13,31,31,1);
+}
+
+.second_card h5{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    background: #0bbeb5;
+    color: white;
+    width: 130px;
+    height: 50px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1000ms ease-in-out;
+}
+
+button:hover{
+    background-color: transparent;
+    border: #0bbeb5 2px solid;
+}
+
+.second_cards_section{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.third_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    width: 250px;
+    height: 275px;
+    background: linear-gradient(#0c0c0c, #073633);
+    border-radius: 5px;
+    text-align: center;
+    gap: 1rem;
+    -webkit-box-shadow: -10px 10px 5px 0px rgba(13,31,31,1);
+    -moz-box-shadow: -10px 10px 5px 0px rgba(13,31,31,1);
+    box-shadow: -10px 10px 5px 0px rgba(13,31,31,1);
+}
+
+.third_card h5{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fourth_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    width: 250px;
+    height: 275px;
+    background: linear-gradient(#0c0c0c, #073633);
+    border-radius: 5px;
+    text-align: center;
+    gap: 1rem;
+}
+
+.fourth_card h5{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.third_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 100px;
+}
+
+.third_main img{
+    width: 600px;
+    height: 643px;
+}
+
+.cd{
+    color: #0bbeb5;
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+.abt_us{
+    width: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.first_icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon_titles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icones{
+    font-size: 5rem;
+}
+
+.third_main_comments{
+    width: 285px;
+}
+
+.third_main_comments h5{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 3rem;
+    flex-direction: column;
+}
+
+.foot_cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.foot_cards h1{
+    color: #0bbeb5;
+}
+
+footer .material-symbols-outlined{
+    font-size: 5rem;
+    color: #0bbeb5;
+}
+
+footer h2{
+    font-size: 1.25em;
+}
+
+.foot_card_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footr{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 4rem;
+}
+
+.last_thing{
+    background-color: black;
+    font-size: 1rem;
+    width: 100%;
+    margin: 0;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+@media screen and (max-width: 1990px) {
+
+}
